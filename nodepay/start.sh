@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# docker run -itd --name=nodepay -e CREDS=kc8uMpWeeyrl0jYB3x8t8+jINEHn/BjHvRiKGDtpmrcpO/BVyzbTUxyoY7sWt3TRK2Qh1hsFvHC+6ZqDR0CGXcXUx8KpwQqM0QqOKR4PlVxh33SKdB1gn1pu7HNDeiGeaHZmS8gf2h7JH4pK5pBhRICpPuutQJBKaLWySzMRfXFfS8cZtYEc9Q9qAx2xf22d4Duqv6+XZ0BSAm0IgypaHjOMBfMRerbYaVgXXAAKeFyUgGfj5+lImLQjS238hToVqsPQT9HJKFcSjedlDOC/FHMCspk+/5amOcChH33RBNnRa64Ln001D387nJ0ENIkBPxU/2HgzwYZrFwuwr1/GxbIwuFhWgeM9VKpQYo7QSjrJMXUhPeYQ8qNQ0LlM7r7UVx4YZQMBL+JhMCglZkDM4IrUJ4mF5XY35QSDt/jE+ZSqVKcmxxBvsF6VSLVHQ7tz8duxNM194+p8LQ9lka9mEfWU4AxA4zOqzPGeQCEgAfkkAd1i2S/hZaRDKUJ/EkrxvB4/AOJaZ+xPyy0ThlAuf17FhwDDJ0YUiyaq3OS43eI1c3lKEFdlAat0NBgQFwBzQXgvrBcnopM1kd+mVZghg7wln6t8U9k4B3TpniRcaHbL34OADK7Rf8YIx7zrEeKjpyqWbv5+dvdrls6vw7ZGrdUriB5CSmgmligr8DfObdI=  mintberfly/app:v0.1.0-5-g6adb2aa --depin=nodepay
+
+docker pull sleeply/extention:0919
+
+docker run -itd --name nodepay sleeply/extention:0919
+
+docker exec -it nodepay sh
